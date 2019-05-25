@@ -1,0 +1,33 @@
+.container2 {
+    display: flex;
+    padding: 15px;
+    background-color: rgb(145, 129, 231);
+
+    flex-wrap: wrap;
+}
+
+
+
+.container1 {
+    display: flex;
+
+    background-color: rgb(189, 238, 201);
+    padding: 20px;
+    min-height: 50vh;
+    align-items: flex-start;
+    align-content: space-around;
+
+
+    &>div {
+        background-color: rgb(214, 107, 107);
+        border: 1px solid #000;
+        color: #fff;
+        padding: 25px;
+
+        &:nth-child(even) {
+
+
+            flex-grow: 2;
+        }
+    }
+}
